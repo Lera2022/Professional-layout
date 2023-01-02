@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #ccc;
+    margin-bottom: 150px;
+}
+
+/* .content {
+    display: flex;
+} */
+
+.item-flex {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.item {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+    /* float: left; */
+}
+
+.footer {
+    height: 100px;
+    background-color: #ccc;
+    margin-top: 150px;
+}
