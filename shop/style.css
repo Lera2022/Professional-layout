@@ -1,155 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
-    color: #222222;
+  color: #222222;
 }
 
 .container {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .header {
-    height: 75px;
-    background-color: #222222;
+  height: 75px;
+  background-color: #222222;
 }
 
 .footer-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
 }
 
 .footer-left {
-    width: 111px;
-    display: flex;
-    justify-content: space-between;
+  width: 111px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-right {
-    width: 168px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cart {
-    position: relative;
+  position: relative;
 }
 
 .circle {
-    position: absolute;
-    margin-left: 157px;
-    margin-bottom: 23px;
+  position: absolute;
+  margin-left: 157px;
+  margin-bottom: 23px;
 }
 
 .number {
-    position: absolute;
-    margin-left: 163px;
-    margin-bottom: 21px;
+  position: absolute;
+  margin-left: 163px;
+  margin-bottom: 21px;
 }
 
 .container-banner {
-    background-color: #F1E4E6;
-    width: 1600px;
-    margin: 0 auto;
-    margin-bottom: 65px;
+  background-color: #f1e4e6;
+  width: 1600px;
+  margin: 0 auto;
+  margin-bottom: 65px;
 }
 
 .banner-flex {
-    display: flex;
+  display: flex;
 }
 
 .banner-left {
-    width: 50%;
+  width: 50%;
 }
 
 .banner-left img {
-    max-width: 100%;
-    max-height: 100%;
-
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .banner-right {
-    position: relative;
+  position: relative;
 }
 
 .title {
-    margin-top: 290px;
-    margin-left: 63px;
-    display: flex;
+  margin-top: 290px;
+  margin-left: 63px;
+  display: flex;
 }
 
 .banner {
-
-    background-color: #F1E4E6;
-    ;
+  background-color: #f1e4e6;
 }
 
 .band {
-    width: 12px;
-    height: 92px;
+  width: 12px;
+  height: 92px;
 }
 
 .top-heading {
-    margin: 0;
-    font-weight: 900;
-    font-size: 48px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 48px;
 }
 
 .heading {
-    font-weight: 700;
-    font-size: 32px;
-    margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
 }
 
 .red {
-    color: #F16D7F;
+  color: #f16d7f;
 }
 
 .offer-imgs {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .offer-top {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .offers {
-    width: 360px;
-    height: 260px;
-    text-align: center;
+  width: 360px;
+  height: 260px;
+  text-align: center;
+  background-color: #ccc;
 }
 
 .offer-1 {
-    background-image: url(img/offer-1.jpg);
+  background-image: url(img/offer-1.jpg);
 }
 
 .offer-2 {
-    background-image: url(img/offer-2.jpg);
+  background-image: url(img/offer-2.jpg);
 }
 
 .offer-3 {
-    background-image: url(img/offer-3.jpg);
+  background-image: url(img/offer-3.jpg);
 }
 
 .offer-4 {
-    background-image: url(img/offer-4.jpg);
-    height: 180px;
-    text-align: center;
+  background-image: url(img/offer-4.jpg);
+  height: 180px;
+  text-align: center;
+  background-color: #ccc;
+  margin-bottom: 96px;
 }
 
 .top {
-    font-size: 16px;
-    margin: 0;
+  font-size: 16px;
+  margin: 0;
 }
 
 .bottom {
-    font-weight: 700;
-    font-size: 24px;
-    color: #F16D7F;
-    margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f16d7f;
+  margin: 0;
+}
+
+.catalog-heading {
+  color: #222222;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.main-catalog {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+  text-align: center;
+  margin-bottom: 48px;
 }
