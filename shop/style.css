@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.page {
+.page-body {
   color: #222222;
 }
 
@@ -73,11 +73,7 @@
   max-height: 100%;
 }
 
-.banner-right {
-  position: relative;
-}
-
-.title {
+.flex-heading {
   margin-top: 290px;
   margin-left: 63px;
   display: flex;
@@ -90,6 +86,7 @@
 .band {
   width: 12px;
   height: 92px;
+  background: #F16D7F;
 }
 
 .top-heading {
@@ -127,6 +124,15 @@
   background-color: #ccc;
 }
 
+.text {
+  padding: 105px;
+  white-space: nowrap;
+}
+
+.text-bottom {
+  padding-top: 65px;
+}
+
 .offer-1 {
   background-image: url(img/offer-1.jpg);
 }
@@ -150,6 +156,7 @@
 .top {
   font-size: 16px;
   margin: 0;
+  color: white;
 }
 
 .bottom {
@@ -175,4 +182,104 @@
   color: #9f9f9f;
   text-align: center;
   margin-bottom: 48px;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 360px;
+  margin-bottom: 30px;
+}
+
+.product-img {
+  background-color: #aba9a7;
+}
+
+.product {
+  background: #F8F8F8;
+}
+
+.product-title {
+  padding-top: 25px;
+  font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #000000;
+margin-bottom: 13px;
+}
+
+.product-description {
+  font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: #5D5D5D;
+margin-bottom: 18px;
+}
+
+.product-price {
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #F16D7F;
+padding-bottom: 20px;
+}
+
+.button-wrap {
+  margin: 0 auto;
+}
+
+.button {
+  margin-top: 19px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #F26376;
+border: 1px solid #FF6A6A;
+text-decoration: none;
+display: block;
+padding: 15px 39px; 
+}
+
+.advantages {
+  margin-top: 96px;
+  background: #222224;
+  height: 341px;
+}
+
+.advantages-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.advantage {
+  text-align: center;
+  padding-top: 103px;
+}
+
+.advantage-heading {
+  font-weight: 400;
+font-size: 19.96px;
+line-height: 24px;
+color: #FBFBFB;
+margin-top: 28px;
+margin-bottom: 16px;
+}
+
+.advantage-description {
+  font-weight: 300;
+font-size: 13.972px;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+width: 360px;
+}
+
+.footer-top {
+  background: url(img/footer-bg.jpg) center no-repeat;
+  background-color: #f8f8f828;
+  height: 448px;
 }
