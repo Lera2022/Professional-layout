@@ -86,7 +86,7 @@
 .band {
   width: 12px;
   height: 92px;
-  background: #F16D7F;
+  background: #f16d7f;
 }
 
 .top-heading {
@@ -200,32 +200,32 @@
 }
 
 .product {
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 
 .product-title {
   padding-top: 25px;
   font-weight: 400;
-font-size: 13px;
-line-height: 16px;
-color: #000000;
-margin-bottom: 13px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 13px;
 }
 
 .product-description {
   font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #5D5D5D;
-margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  margin-bottom: 18px;
 }
 
 .product-price {
   font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #F16D7F;
-padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+  padding-bottom: 20px;
 }
 
 .button-wrap {
@@ -235,13 +235,13 @@ padding-bottom: 20px;
 .button {
   margin-top: 19px;
   font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #F26376;
-border: 1px solid #FF6A6A;
-text-decoration: none;
-display: block;
-padding: 15px 39px; 
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  border: 1px solid #ff6a6a;
+  text-decoration: none;
+  display: block;
+  padding: 15px 39px;
 }
 
 .advantages {
@@ -252,7 +252,7 @@ padding: 15px 39px;
 
 .advantages-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .advantage {
@@ -262,24 +262,102 @@ padding: 15px 39px;
 
 .advantage-heading {
   font-weight: 400;
-font-size: 19.96px;
-line-height: 24px;
-color: #FBFBFB;
-margin-top: 28px;
-margin-bottom: 16px;
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #fbfbfb;
+  margin-top: 28px;
+  margin-bottom: 16px;
 }
 
 .advantage-description {
   font-weight: 300;
-font-size: 13.972px;
-line-height: 17px;
-text-align: center;
-color: #FBFBFB;
-width: 360px;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
+  width: 360px;
 }
 
 .footer-top {
   background: url(img/footer-bg.jpg) center no-repeat;
   background-color: #f8f8f828;
   height: 448px;
+}
+
+.footer-top-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rewiew {
+  padding-top: 97px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #222224;
+width: 359.45px;
+}
+
+.subscribe {
+  padding-top: 150px;
+  width: 557px;
+}
+
+.photo {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.subscribe-top {
+  font-weight: 700;
+font-size: 24px;
+line-height: 167.2%;
+text-align: center;
+color: #222224;
+}
+
+.subscribe-bottom {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #222224;
+}
+
+.subscribe-form {
+  display: flex;
+
+}
+
+.subscribe-mail {
+  border: none;
+  font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #222224;
+opacity: 0.67;
+background-color: #E1E1E1;
+width: 256px;
+height: 49px;
+}
+
+.subscribe-button {
+  height: 49px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  color: #FFFFFF;
+  background: #F16D7F;
+width: 100px;
+box-sizing: border-box;
+padding: 15px 20px;
+}
+
+.footer-bottom {
+  background: #222224;
+  height: 79px;
 }
