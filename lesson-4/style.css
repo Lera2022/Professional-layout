@@ -1,0 +1,29 @@
+/* summary {
+    width: 100px;
+    height: 40px;
+    background-color: #ccc;
+    line-height: 40px;
+    list-style-type: none;
+    text-align: center;
+} */
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: '\25B6';
+    padding-right: 0.5em;
+    margin-left: 10px;
+    color: blue;
+}
+
+details[open]>summary::after {
+    content: '\25BC';
+    margin-left: 10px;
+    color: red;
+}

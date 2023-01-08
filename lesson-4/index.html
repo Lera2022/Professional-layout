@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <details>
+        <summary>нажми меня</summary>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium iste ad nihil similique commodi
+        perferendis nam. Suscipit, maiores fugit.
+    </details>
+    <div class="content">
+        <form action="#">
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <label for="name">Фамилия</label>
+                <input id="name" placeholder="Иванов" autofocus required pattern="\S+[A-яа-я]">
+                <br>
+                <label for="name">Имя</label>
+                <input id="name" placeholder="Иван" required pattern="\S+[A-яа-я]">
+                <br>
+                <label for="name">Отчество</label>
+                <input id="name" placeholder="Сидорович" pattern="\S+[A-яа-я]">
+                <br>
+                <label for="telephone">Телефон</label>
+                <input id="telephone" placeholder="+7-903-955-55-55" required>
+                <br>
+                <label for="emali">Email</label>
+                <input id="email" placeholder="email@server.com" required pattern="\S+@[a-z]+.[a-z]+">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Персональная информация</legend>
+                <label for="age">Возраст</label>
+                <input id="age" type="number" required min="14" max="100">
+                <br>
+                <label for="gender">Пол</label>
+                <select id="gender">
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                </select>
+                <br>
+                <label for="comments">Перечислите дополнительную информацию, которую вы хотели бы сообщить о
+                    себе</label>
+                <textarea id="comments"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Выберите ваши увлечения</legend>
+                <label for="sport">
+                    <input type="checkbox" id="sport">
+                    Спорт
+                </label>
+                <label for="tourism">
+                    <input type="checkbox" id="tourism">
+                    Туризм
+                </label>
+                <label for="sport">
+                    <input type="checkbox" id="sport">
+                    Спорт
+                </label>
+                <label for="sport">
+                    <input type="checkbox" id="sport">
+                    Спорт
+                </label>
+                <label for="sport">
+                    <input type="checkbox" id="sport">
+                    Спорт
+                </label>
+                <label for="sport">
+                    <input type="checkbox" id="sport">
+                    Спорт
+                </label>
+            </fieldset>
+        </form>
+        <form oninput="result.value=(range.value)" action="#">
+            <fieldset>
+                <legend>Новые элементы форм HTML5</legend>
+                <fieldset>
+                    <legend>Использование элемента input с новыми типами</legend>
+                    <label for="data">Тип data</label>
+                    <input type="date" id="data" min="2012-01-01" max="2012-12-31">
+                    <br>
+                    <label for="email">Тип email</label>
+                    <input type="email" id="email">
+                    <br>
+                    <label for="url">Тип url</label>
+                    <input type="url" id="url">
+                    <br>
+                    <label for="number">Тип number</label>
+                    <input type="number" id="number">
+                    <br>
+                    <label for="range">Тип range</label>
+                    <input type="range" id="range" value="10" step="0.1">
+                    <br>
+                    <p>
+                        Значение RANGE:
+                        <output name="result" for="range">10</output>
+                    </p>
+                    <label for="time">Тип time</label>
+                    <input type="time" id="time">
+                    <br>
+                    <label for="datetime-local">Тип datetime-local</label>
+                    <input type="datetime-local" id="datetime-local">
+                    <br>
+                    <label for="datetime">Тип datetime</label>
+                    <input type="datetime" id="datetime">
+                    <br>
+                    <label for="month">Тип month</label>
+                    <input type="month" id="month">
+                    <br>
+                    <label for="week">Тип week</label>
+                    <input type="week" id="week">
+                    <br>
+                    <label for="color">Тип color</label>
+                    <input type="color" id="color">
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Выберите любимый фрукт. Пример использования элемента datalist</legend>
+                    <label for="friut">Фрукт</label>
+                    <input id="fruit" list="dl_fruits">
+                </fieldset>
+                <datalist id="dl_fruits">
+                    <option label="Яблоко" value="apple"></option>
+                    <option label="Ананас" value="ananas"></option>
+                    <option label="Абрикос" value="apricot"></option>
+                    <option label="Арбуз" value="apple"></option>
+                    <option label="Авокадо" value="apple"></option>
+                    <option label="Апельсин" value="apple"></option>
+                </datalist>
+                <fieldset>
+                    <legend>Пример использования индикатора progress и счётчика meter</legend>
+                    Процесс выполнения:
+                    <progress value="0.25"></progress>
+                    <br>
+                    Пройденная дистанция:
+                    <meter min="5" max="70" value="28">28 метров</meter>
+                </fieldset>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
