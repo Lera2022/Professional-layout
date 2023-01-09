@@ -4,8 +4,8 @@
     outline: none;
 }
 
-@site-width: 1200px;
-@bd-width: 1px;
+$site-width: 1307px;
+$bd-width: 1px;
 
 .header {
     height: 100px;
@@ -25,12 +25,12 @@
 }
 
 .item {
-    border: @bd-width solid #000;
+    border: $bd-width solid #000;
     height: 300px;
-    width: 398px;
+    width: $site-width/3 - $bd-width*2;
 }
 
 .container {
     margin: 0 auto;
-    width: @site-width;
+    width: $site-width;
 }
