@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.header {
+  height: 100px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 100px;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.margin, .footer, .header {
+  margin-bottom: 200px;
+  background-color: #ccc;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 200px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  font-family: "sans-serif";
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 100px;
+  color: #fff;
+}
+
+.item {
+  border: 1px solid #000;
+  height: 300px;
+  width: 433.6666666667px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin-bottom: 20px;
+}
+.item__button {
+  margin: 200px auto 0;
+}
+.item__button_borderrad {
+  border-radius: 10px;
+}
+.item__button_hover-blue-item:hover {
+  background-color: blue;
+}
+
+.button:hover {
+  background-color: #ccc;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  line-height: 40px;
+  text-align: center;
+}
+.button_red {
+  background-color: red;
+}
+.button_border {
+  border: 3px solid #000;
+}
+.button_hover-blue:hover {
+  background-color: blue;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1307px;
+}/*# sourceMappingURL=style.css.map */

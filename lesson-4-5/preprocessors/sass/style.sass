@@ -1,0 +1,59 @@
+
+* 
+    margin: 0
+    padding: 0
+    outline: none
+
+@import "mixins"
+@import "vars"
+@import "header"
+
+.content 
+    display: flex
+    flex-wrap: wrap
+
+.margin
+    margin-bottom: 200px
+    background-color: $bc
+
+.footer 
+    height: 100px
+    @extend .margin
+    margin-top: 200px
+    @include bdr(30px)
+    @include txt('sans-serif', 700, 50px, uppercase)
+
+.item 
+    border: $bd-width solid #000
+    height: 300px
+    width: calc($site-width / 3) - $bd-width*2
+    @include bdr(10px)
+    margin-bottom: 20px
+    &__button
+        margin: 200px auto 0
+        &_borderrad
+            border-radius: 10px
+        &_hover-blue-item:hover
+            background-color: blue
+
+
+.button:hover
+    background-color: $bc
+
+.button
+    width: 100px
+    height: 40px
+    background-color: green
+    line-height: 40px
+    text-align: center
+    &_red 
+        background-color: red
+    &_border
+        border: 3px solid #000
+    &_hover-blue:hover
+        background-color: blue
+
+
+.container 
+    margin: 0 auto
+    width: $site-width
